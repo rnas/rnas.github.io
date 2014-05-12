@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: new test post
 layout: post
 ---

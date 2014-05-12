@@ -1,0 +1,7 @@
+---
+published: true
+title: Test post
+layout: post
+tags: [test, delete me]
+---
+not sure about how it works

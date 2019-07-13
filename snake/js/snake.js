@@ -85,7 +85,11 @@ function move(){
 					writeScore();
 				} else if(parts[x+dirX][y+dirY]==0)
 					paint(x + dirX,y + dirY,size + 1);
-				else return alert('You loose :(');
+				else {
+					alert('You loose :(');
+				     	location.reload();
+					return;
+			     	}
 			}
 			if ((parts[x][y] == 1)) paint(x,y,0);
 		}
